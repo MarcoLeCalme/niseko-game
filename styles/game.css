@@ -1,9 +1,10 @@
 body {
   background-color: #161616;
+  overflow: hidden;
 }
 
 #game {
   margin: 0 auto;
-  height: 640vh;
+  height: 640px;
   width: 320px;
 }
