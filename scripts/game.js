@@ -412,7 +412,7 @@ window.onload = function () {
     let msToReleaseEnemy = 1000;
     let difficultyIncrease = false;
     const maxEnemySpeed = 12;
-    const maxEnemyMsToRelease = 200;
+    const maxEnemyMsToRelease = 1000;
 
     enemySpeedText.text = getEnemySpeedText(enemySpeed);
     msToReleaseText.text = getMsToReleaseText(msToReleaseEnemy);
