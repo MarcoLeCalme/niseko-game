@@ -326,8 +326,8 @@ window.onload = function () {
   function startGame () {
     const FPS = PIXI.Ticker.shared.FPS;
 
-    const gameSpeed = 5;
-    const lanes = 2;
+    const gameSpeed = 2;
+    const lanes = 3;
     const gameDiv = document.getElementById('game');
 
     // Allow zIndex usage
