@@ -326,7 +326,7 @@ window.onload = function () {
   function startGame () {
     const FPS = PIXI.Ticker.shared.FPS;
 
-    const gameSpeed = 3;
+    const gameSpeed = 5;
     const lanes = 2;
     const gameDiv = document.getElementById('game');
 
@@ -409,7 +409,7 @@ window.onload = function () {
     let startDate = new Date();
     let enemyCardsEvaded = 0;
     let enemySpeed = gameSpeed;
-    let msToReleaseEnemy = 200;
+    let msToReleaseEnemy = 400;
     let difficultyIncrease = false;
     const maxEnemySpeed = 12;
     const maxEnemyMsToRelease = 200;
