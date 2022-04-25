@@ -409,10 +409,10 @@ window.onload = function () {
     let startDate = new Date();
     let enemyCardsEvaded = 0;
     let enemySpeed = gameSpeed;
-    let msToReleaseEnemy = 200;
+    let msToReleaseEnemy = 400;
     let difficultyIncrease = false;
     const maxEnemySpeed = 12;
-    const maxEnemyMsToRelease = 200;
+    const maxEnemyMsToRelease = 100;
 
     enemySpeedText.text = getEnemySpeedText(enemySpeed);
     msToReleaseText.text = getMsToReleaseText(msToReleaseEnemy);
@@ -425,7 +425,7 @@ window.onload = function () {
       enemyCars = [];
       enemyCardsEvaded = 0;
       enemySpeed = gameSpeed;
-      msToReleaseEnemy = 200;
+      msToReleaseEnemy = 400;
       difficultyIncrease = false;
       startDate = new Date();
 
