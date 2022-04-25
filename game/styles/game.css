@@ -4,6 +4,6 @@ body {
 
 #game {
   margin: 0 auto;
-  height: 640px;
-  width: 320px;
+  height: 100vh;
+  width: 620px;
 }
